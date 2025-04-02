@@ -19,6 +19,16 @@ const projects = [
     link: "#",
     github: "https://github.com/prakashcjoshi2209/GoHelper",
   },
+
+  {
+    title: "Pizza Wizza",
+    tech: "Next.js, Tailwind CSS, JavaScript, MongoDB ",
+    description:
+     "Designed and developed a responsive website for Pizza Wizza,Implemented an interactive menu, seamless ordering system, and optimized performance for a smooth user experience.",
+    link: "#",
+    github: "https://github.com/prakashcjoshi2209/pizza_wizza",
+  },
+
   {
     title: "E-Commerce Store",
     tech: "HTML5, CSS, Bootstrap5, JavaScript",
@@ -27,14 +37,7 @@ const projects = [
     link: "#",
     github: "https://github.com/prakashcjoshi2209/ecommerce-",
   },
-  {
-    title: "Music Player App",
-    tech: "HTML, Bootstrap, JavaScript",
-    description:
-      "Designed and developed a responsive music player with interactive UI and smooth playback controls.",
-    link: "#",
-    github: "https://github.com/prakashcjoshi2209/music-player-app",
-  },
+  
 ];
 
 const page = () => {

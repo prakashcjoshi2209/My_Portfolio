@@ -1,4 +1,3 @@
-
 "use client";
 
 import Link from "next/link";
@@ -13,33 +12,7 @@ const About = () => {
           About Me
         </h1>
 
-        {/* Education */}
-        <div className="mb-8">
-          <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-            Education
-          </h2>
-          <div className="bg-white p-6 rounded-lg shadow-md">
-            <p className="text-lg font-medium">
-              Master of Computer Applications (MCA)
-            </p>
-            <p className="text-gray-600">
-              AKTU University, Ghaziabad, UP (2023-2025)
-            </p>
-          </div>
-        </div>
-
-        {/* View Resume Button */}
-        <div className="text-center my-6">
-          <Link
-            href="/prakashCJ.pdf"
-            target="_blank"
-            className="bg-purple-600 text-white px-6 py-3 rounded-lg text-lg font-medium hover:bg-purple-700 transition duration-300"
-          >
-            View Resume
-          </Link>
-        </div>
-
-        {/* Technical Skills */}
+         {/* Technical Skills */}
         <div className="mb-8">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">
             Technical Skills
@@ -47,7 +20,7 @@ const About = () => {
           <div className="bg-white p-6 rounded-lg shadow-md">
             <p>
               <span className="font-medium">Programming Languages:</span> C,
-              C++, Java, JavaScript
+              C++, JavaScript, Python
             </p>
 
             <p className="text-lg font-medium mt-4">Frameworks & Libraries:</p>
@@ -71,7 +44,7 @@ const About = () => {
           </div>
         </div>
 
-        {/* Strengths */}
+         {/* Strength */}
         <div className="mb-8">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">
             Strengths
@@ -97,6 +70,45 @@ const About = () => {
             </ul>
           </div>
         </div>
+     
+
+ 
+
+        {/* Education */}
+        <div className="mb-8">
+          <h2 className="text-2xl font-semibold text-gray-800 mb-4">
+            Education
+          </h2>
+          <div className="bg-white p-6 rounded-lg shadow-md">
+            <p className="text-lg font-medium">
+              Master of Computer Applications (MCA)
+            </p>
+            <p className="text-gray-600">
+              AKTU University, Ghaziabad, UP (2023-2025)
+            </p>
+          </div>
+
+          <div className="bg-white p-6 rounded-lg shadow-md">
+            <p className="text-lg font-medium">
+            Bachelor of Science (BSc)
+            </p>
+            <p className="text-gray-600">
+              CSJMU University, Kanpur, UP (2020-2023)
+            </p>
+          </div>
+        </div>
+
+    
+        
+
+        
+
+
+
+
+
+
+
       </div>
 
       {/* Additional Section */}
