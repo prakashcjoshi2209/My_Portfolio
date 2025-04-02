@@ -1,5 +1,5 @@
-import { dbConnect } from "@/lib/dbConnect";
-import { Message } from "@/lib/models/Message";
+import { dbConnect } from "../../../lib/dbConnect";
+import { Message } from "../../../lib/models/Message";
 import { NextResponse } from "next/server";
 
 export async function POST(req) {
