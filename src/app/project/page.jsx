@@ -33,9 +33,9 @@ const projects = [
     title: "E-Commerce Store",
     tech: "HTML5, CSS, Bootstrap5, JavaScript",
     description:
-      "Created a user-friendly shopping interface and implemented a dynamic cart update system for real-time feedback.",
+      "Develop a user-friendly shopping interface and implemented a dynamic cart update system for real-time feedback.",
     link: "#",
-    github: "https://github.com/prakashcjoshi2209/ecommerce-",
+    github: "https://github.com/prakashcjoshi2209/pcjStore",
   },
   
 ];
