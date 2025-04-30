@@ -48,6 +48,18 @@ const Page = () => {
                     {experience.company}
                   </p>
                   <p className="text-gray-500 text-sm">{experience.duration}</p>
+                  {experience.certificateLink && (
+                <a
+                  href={experience.certificateLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center mt-4 text-sm font-medium text-white bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded-full transition"
+                >
+                  View Certificate
+                  <FaExternalLinkAlt className="ml-2" />
+                </a>
+              )}
+
                 </div>
               </div>
               <ul className="list-disc list-inside text-gray-700 mt-4 space-y-2">
@@ -60,18 +72,8 @@ const Page = () => {
                 {experience.tech}
               </p>
 
-              {/* Certificate Link Button */}
-              {experience.certificateLink && (
-                <a
-                  href={experience.certificateLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center mt-4 text-sm font-medium text-white bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded-full transition"
-                >
-                  View Certificate
-                  <FaExternalLinkAlt className="ml-2" />
-                </a>
-              )}
+            
+             
             </div>
           ))}
         </div>

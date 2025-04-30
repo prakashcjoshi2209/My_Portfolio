@@ -9,7 +9,7 @@ const projects = [
     duration: "Sept 2024 – Mar 2025",
     description:
       "Learnify is a dynamic e-learning platform built with Next.js and TypeScript, designed for seamless course browsing and an intuitive user experience.",
-    link: "https://learnify-pcj.netlify.app/",
+
     github: "https://github.com/prakashcjoshi2209/Learnify",
   },
 
@@ -43,19 +43,16 @@ const projects = [
     github: "https://github.com/prakashcjoshi2209/GoHelper",
   },
 
-
   {
     title: "Pizza Wizza",
     tech: "Next.js, Tailwind CSS, JavaScript, MongoDB",
     duration: "Jan 2024 – Feb 2024",
     description:
       "Designed and developed a responsive website for Pizza Wizza. Implemented an interactive menu, seamless ordering system, and optimized performance.",
-    link: "https://pizza-wizza.netlify.app/",
+
     github: "https://github.com/prakashcjoshi2209/pizza_wizza",
   },
 
- 
-  
   {
     title: "E-Commerce Store",
     tech: "HTML5, CSS, Bootstrap5, JavaScript",
@@ -104,14 +101,17 @@ const Page = () => {
                   <span>GitHub</span>
                 </Link>
 
-                <Link
-                  href={project.link}
-                  target="_blank"
-                  className="flex items-center text-purple-600 hover:text-purple-800 space-x-2"
-                >
-                  <FaExternalLinkAlt className="text-lg" />
-                  <span>Live Demo</span>
-                </Link>
+                {/* Conditionally render Live Demo only if link exists */}
+                {project.link && (
+                  <Link
+                    href={project.link}
+                    target="_blank"
+                    className="flex items-center text-purple-600 hover:text-purple-800 space-x-2"
+                  >
+                    <FaExternalLinkAlt className="text-lg" />
+                    <span>Live Demo</span>
+                  </Link>
+                )}
               </div>
             </div>
           ))}
